@@ -36,7 +36,7 @@
 
         <section class="courses-section">
             <div class="cards">
-                <article>
+                <article class="card">
                     <img src="img/piano.png" alt="Piano">
                     <strong>Piano popular</strong>
                     <p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, dolore magna aliqua.</p>
@@ -45,7 +45,7 @@
                     </a>
                 </article>
     
-                <article>
+                <article class="card">
                     <img src="img/clef.png" alt="clave de sol">
                     <strong>Teoria musical</strong>
                     <p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, dolore magna aliqua.</p>
@@ -54,7 +54,7 @@
                     </a>
                 </article>
     
-                <article>
+                <article class="card">
                     <img src="img/sax.png" alt="saxofone">
                     <strong>Sax alto</strong>
                     <p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, dolore magna aliqua.</p>
@@ -63,7 +63,7 @@
                     </a>
                 </article>
     
-                <article>
+                <article class="card">
                     <img src="img/drums.png" alt="Bateria">
                     <strong>Bateria</strong>
                     <p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, dolore magna aliqua.</p>
@@ -73,26 +73,27 @@
                 </article>
             </div>
 
-            <h2>E <span class="text-primary">varios</span> outros!</h2>
-            <a href="#">Conhecer os cursos</a>
+            <h2 class="text-center">E <span class="text-primary">varios</span> outros!</h2>
+            <a href="#" class="button mt-2 mx-auto">Conhecer cursos</a>
         </section>
     </main>
 
     <footer>
         <div>
-            <img src="img/logo.svg" alt="Jazz Scholl">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do wivsmod tempor incidium 
+            <img src="img/logo.svg" alt="Jazz Scholl" class="mt-1 mb-1">
+            <p class="mb-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do wivsmod tempor incidium 
             dolore magna aliqua.</p>
         </div>
-        <nav>
+        <nav class="mb-2">
             <a href="#">Inicio</a>
             <a href="#">Cursos</a>
             <a href="#">Eventos</a>
             <a href="#">Contato</a>
         </nav>
-        <form action="">
-            <label for="email">Receba materiais gratuitos no seu email</label>
-            <input type="text" name="email" id="email" placeholder="Digite o seu e-mail">
+        <form class="newsletter-form">
+            <label for="email" class="mb-1">Receba materiais gratuitos no seu email</label>
+            <input type="text" name="email" id="email" class="mb-1" placeholder="Digite o seu e-mail">
+            <button class="button mb-2"> Quero receber</button>
         </form>
     </footer>
 </body>
